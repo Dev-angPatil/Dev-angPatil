@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&amp;family=Share+Tech+Mono&amp;display=swap');
+      
+      .bg {
+        fill: #080417;
+      }
+      .grid-lines {
+        stroke: #251254;
+        stroke-width: 1.5;
+        opacity: 0.6;
+      }
+      .sun {
+        fill: url(#sun-gradient);
+        filter: drop-shadow(0 0 15px rgba(255, 0, 127, 0.6));
+      }
+      .mountain {
+        fill: #0c0822;
+        stroke: #ff007f;
+        stroke-width: 1.5;
+        filter: drop-shadow(0 0 5px rgba(255, 0, 127, 0.4));
+      }
+      .title {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 28px;
+        font-weight: 900;
+        fill: #00f2fe;
+        letter-spacing: 5px;
+        filter: drop-shadow(0 0 10px rgba(0, 242, 254, 0.8));
+      }
+      .subtitle {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 14px;
+        fill: #ffaa00;
+        letter-spacing: 6px;
+      }
+      .glitch-bar {
+        fill: #00f2fe;
+        opacity: 0.8;
+        filter: drop-shadow(0 0 4px #00f2fe);
+      }
+    </style>
+    
+    <linearGradient id="sun-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff007f" />
+      <stop offset="50%" stop-color="#ffaa00" />
+      <stop offset="100%" stop-color="#080417" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="200" class="bg" />
+
+  <!-- Receding Perspective Grid -->
+  <g>
+    <!-- Horizon Line -->
+    <line x1="0" y1="130" x2="800" y2="130" stroke="#ff007f" stroke-width="1.5" opacity="0.8" />
+    
+    <!-- Perspective lanes -->
+    <line x1="400" y1="130" x2="-200" y2="200" class="grid-lines" />
+    <line x1="400" y1="130" x2="0" y2="200" class="grid-lines" />
+    <line x1="400" y1="130" x2="200" y2="200" class="grid-lines" />
+    <line x1="400" y1="130" x2="300" y2="200" class="grid-lines" />
+    <line x1="400" y1="130" x2="360" y2="200" class="grid-lines" />
+    <line x1="400" y1="130" x2="400" y2="200" class="grid-lines" />
+    <line x1="400" y1="130" x2="440" y2="200" class="grid-lines" />
+    <line x1="400" y1="130" x2="500" y2="200" class="grid-lines" />
+    <line x1="400" y1="130" x2="600" y2="200" class="grid-lines" />
+    <line x1="400" y1="130" x2="800" y2="200" class="grid-lines" />
+    <line x1="400" y1="130" x2="1000" y2="200" class="grid-lines" />
+
+    <!-- Grid Horizontal bars -->
+    <line x1="0" y1="135" x2="800" y2="135" stroke="#251254" stroke-width="0.8" />
+    <line x1="0" y1="142" x2="800" y2="142" stroke="#251254" stroke-width="1.0" />
+    <line x1="0" y1="151" x2="800" y2="151" stroke="#251254" stroke-width="1.2" />
+    <line x1="0" y1="163" x2="800" y2="163" stroke="#251254" stroke-width="1.4" />
+    <line x1="0" y1="178" x2="800" y2="178" stroke="#251254" stroke-width="1.6" />
+    <line x1="0" y1="197" x2="800" y2="197" stroke="#251254" stroke-width="1.8" />
+  </g>
+
+  <!-- Glowing Sun -->
+  <circle cx="400" cy="110" r="55" class="sun" />
+  <!-- Sun lines (classic retro outrun slits) -->
+  <rect x="340" y="112" width="120" height="2" fill="#080417" />
+  <rect x="340" y="118" width="120" height="3" fill="#080417" />
+  <rect x="340" y="125" width="120" height="4" fill="#080417" />
+
+  <!-- Wireframe Mountains -->
+  <!-- Left Mountain -->
+  <polygon points="-50,130 150,55 320,130" class="mountain" />
+  <!-- Right Mountain -->
+  <polygon points="500,130 650,45 850,130" class="mountain" />
+  <!-- Middle Small Mountain -->
+  <polygon points="280,130 380,85 480,130" class="mountain" />
+
+  <!-- Glitch decorative elements -->
+  <rect x="50" y="45" width="120" height="2" class="glitch-bar" />
+  <rect x="680" y="150" width="80" height="1.5" class="glitch-bar" />
+
+  <!-- Logo Text -->
+  <text x="400" y="75" class="title" text-anchor="middle">DEVANG PATIL</text>
+  <text x="400" y="100" class="subtitle" text-anchor="middle">AUTHENTIC TERMINAL SYSTEM</text>
+</svg>

@@ -1,0 +1,278 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <!-- Fonts -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;family=Share+Tech+Mono&amp;family=Orbitron:wght@700;900&amp;display=swap');
+      
+      .bg {
+        fill: #0c081e;
+      }
+      .panel-bg {
+        fill: #140e2d;
+        stroke: #ff007f;
+        stroke-width: 2;
+        filter: drop-shadow(0 0 8px rgba(255, 0, 127, 0.4));
+      }
+      .sub-panel {
+        fill: #08051a;
+        stroke: #00f2fe;
+        stroke-width: 1.5;
+        filter: drop-shadow(0 0 5px rgba(0, 242, 254, 0.3));
+      }
+      .title-text {
+        font-family: 'Orbitron', sans-serif;
+        font-weight: 900;
+        font-size: 26px;
+        fill: #00f2fe;
+        filter: drop-shadow(0 0 8px rgba(0, 242, 254, 0.8));
+      }
+      .subtitle-text {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 16px;
+        fill: #ffaa00;
+        letter-spacing: 2px;
+      }
+      .label-text {
+        font-family: 'Press Start 2P', monospace;
+        font-size: 10px;
+        fill: #ffffff;
+      }
+      .value-text {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 16px;
+        fill: #00f2fe;
+      }
+      .stat-name {
+        font-family: 'Press Start 2P', monospace;
+        font-size: 9px;
+        fill: #ff007f;
+        text-shadow: 0 0 3px rgba(255, 0, 127, 0.5);
+      }
+      .stat-sub {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 12px;
+        fill: #8b80b6;
+      }
+      .item-name {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 14px;
+        fill: #00f2fe;
+      }
+      .item-rarity {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 12px;
+        fill: #ffaa00;
+      }
+      .cursor {
+        fill: #00f2fe;
+        animation: blink 1s infinite;
+      }
+      .glow-pink {
+        fill: #ff007f;
+        filter: drop-shadow(0 0 6px rgba(255, 0, 127, 0.8));
+      }
+      .glow-cyan {
+        fill: #00f2fe;
+        filter: drop-shadow(0 0 6px rgba(0, 242, 254, 0.8));
+      }
+      .grid-lines {
+        stroke: #201545;
+        stroke-width: 1;
+        opacity: 0.4;
+      }
+      
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      
+      @keyframes pulse {
+        0%, 100% { filter: drop-shadow(0 0 8px rgba(255, 0, 127, 0.4)); }
+        50% { filter: drop-shadow(0 0 14px rgba(255, 0, 127, 0.7)); }
+      }
+      
+      .animated-panel {
+        animation: pulse 4s infinite ease-in-out;
+      }
+    </style>
+
+    <!-- Gradients -->
+    <linearGradient id="cyan-pink" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="100%" stop-color="#ff007f" />
+    </linearGradient>
+    <linearGradient id="bar-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff007f" />
+      <stop offset="70%" stop-color="#ffaa00" />
+      <stop offset="100%" stop-color="#00f2fe" />
+    </linearGradient>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0c081e" />
+      <stop offset="100%" stop-color="#18103c" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="450" rx="15" class="bg" fill="url(#bg-gradient)"/>
+  
+  <!-- Cyberpunk Background Grid -->
+  <g>
+    <!-- Horizontal lines -->
+    <line x1="0" y1="50" x2="800" y2="50" class="grid-lines" />
+    <line x1="0" y1="100" x2="800" y2="100" class="grid-lines" />
+    <line x1="0" y1="150" x2="800" y2="150" class="grid-lines" />
+    <line x1="0" y1="200" x2="800" y2="200" class="grid-lines" />
+    <line x1="0" y1="250" x2="800" y2="250" class="grid-lines" />
+    <line x1="0" y1="300" x2="800" y2="300" class="grid-lines" />
+    <line x1="0" y1="350" x2="800" y2="350" class="grid-lines" />
+    <line x1="0" y1="400" x2="800" y2="400" class="grid-lines" />
+    
+    <!-- Vertical lines -->
+    <line x1="100" y1="0" x2="100" y2="450" class="grid-lines" />
+    <line x1="200" y1="0" x2="200" y2="450" class="grid-lines" />
+    <line x1="300" y1="0" x2="300" y2="450" class="grid-lines" />
+    <line x1="400" y1="0" x2="400" y2="450" class="grid-lines" />
+    <line x1="500" y1="0" x2="500" y2="450" class="grid-lines" />
+    <line x1="600" y1="0" x2="600" y2="450" class="grid-lines" />
+    <line x1="700" y1="0" x2="700" y2="450" class="grid-lines" />
+  </g>
+
+  <!-- Main Card Panel -->
+  <rect x="25" y="25" width="750" height="400" rx="10" class="panel-bg animated-panel"/>
+
+  <!-- ================= LEFT COLUMN (AVATAR & INFO) ================= -->
+  <!-- Avatar Panel -->
+  <rect x="50" y="55" width="220" height="200" rx="6" class="sub-panel"/>
+  
+  <!-- Stylized Retro Coder Avatar (SVG Drawing) -->
+  <g transform="translate(60, 65)">
+    <!-- Grid scanlines on avatar background -->
+    <line x1="0" y1="30" x2="200" y2="30" stroke="#10183b" stroke-width="1"/>
+    <line x1="0" y1="60" x2="200" y2="60" stroke="#10183b" stroke-width="1"/>
+    <line x1="0" y1="90" x2="200" y2="90" stroke="#10183b" stroke-width="1"/>
+    <line x1="0" y1="120" x2="200" y2="120" stroke="#10183b" stroke-width="1"/>
+    <line x1="0" y1="150" x2="200" y2="150" stroke="#10183b" stroke-width="1"/>
+    
+    <!-- Neon Sun / Tech Circle background -->
+    <circle cx="100" cy="90" r="65" fill="none" stroke="#ff007f" stroke-width="2" stroke-dasharray="10 5" opacity="0.4"/>
+    <circle cx="100" cy="90" r="50" fill="none" stroke="#00f2fe" stroke-width="1.5" opacity="0.6"/>
+    
+    <!-- Cybernetic Coder Figure -->
+    <!-- Head / Helmet -->
+    <path d="M70,90 Q70,50 100,50 Q130,50 130,90 L125,120 L75,120 Z" fill="#1b1244" stroke="#ff007f" stroke-width="2"/>
+    <!-- Visor -->
+    <rect x="78" y="70" width="44" height="18" rx="4" fill="#00f2fe" stroke="#00f2fe" stroke-width="2" filter="drop-shadow(0 0 5px #00f2fe)"/>
+    <!-- Visor Reflection line -->
+    <line x1="82" y1="74" x2="98" y2="74" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+    <!-- Headphones / Cyber Ears -->
+    <rect x="63" y="75" width="8" height="25" rx="3" fill="#ff007f" stroke="#ffffff" stroke-width="1"/>
+    <rect x="129" y="75" width="8" height="25" rx="3" fill="#ff007f" stroke="#ffffff" stroke-width="1"/>
+    <path d="M70,75 Q100,60 130,75" fill="none" stroke="#ff007f" stroke-width="3"/>
+    
+    <!-- Collar & Jacket -->
+    <path d="M60,150 L75,125 L125,125 L140,150 Z" fill="#2d1b54" stroke="#ff007f" stroke-width="1.5"/>
+    <line x1="100" y1="125" x2="100" y2="150" stroke="#00f2fe" stroke-width="2" filter="drop-shadow(0 0 3px #00f2fe)"/>
+    
+    <!-- Shoulder lights -->
+    <circle cx="70" cy="138" r="3" class="glow-cyan"/>
+    <circle cx="130" cy="138" r="3" class="glow-cyan"/>
+    
+    <!-- Coding Console Interface Overlay (HUD) -->
+    <rect x="10" y="145" width="180" height="30" rx="3" fill="none" stroke="#00f2fe" stroke-width="1" stroke-dasharray="4 4" opacity="0.7"/>
+    <text x="20" y="164" font-family="Share Tech Mono" font-size="12" fill="#00f2fe">> RUNNING DEVANG_OS.SH</text>
+    <rect x="156" y="154" width="8" height="12" class="cursor"/>
+  </g>
+
+  <!-- Player Identity Info -->
+  <text x="50" y="285" class="title-text">DEVANG PATIL</text>
+  <text x="50" y="308" class="subtitle-text">CLASS: SYSTEM ARCHITECT</text>
+  
+  <!-- Level and Exp Section -->
+  <g transform="translate(50, 325)">
+    <!-- Level badge -->
+    <rect x="0" y="0" width="90" height="25" rx="4" fill="#ff007f" filter="drop-shadow(0 0 4px #ff007f)"/>
+    <text x="45" y="17" class="label-text" text-anchor="middle" fill="#ffffff" font-size="9">LVL 20</text>
+    
+    <!-- EXP label -->
+    <text x="105" y="17" class="label-text" font-size="9">EXP:</text>
+    <!-- EXP bar bg -->
+    <rect x="145" y="6" width="75" height="12" rx="3" fill="#140e2d" stroke="#8b80b6" stroke-width="1"/>
+    <!-- EXP bar fill -->
+    <rect x="147" y="8" width="55" height="8" rx="2" fill="#00f2fe" filter="drop-shadow(0 0 3px #00f2fe)"/>
+  </g>
+  
+  <!-- Sub-details (CS student) -->
+  <text x="50" y="375" class="value-text" fill="#8b80b6">HP: <tspan fill="#ffffff">999/999</tspan></text>
+  <text x="150" y="375" class="value-text" fill="#8b80b6">MP: <tspan fill="#00f2fe">500/500</tspan></text>
+  <text x="50" y="398" class="value-text" fill="#ffaa00">GUILD: COOPERATIVE OPEN SOURCE BUILDERS</text>
+
+
+  <!-- ================= RIGHT COLUMN (STATS & INVENTORY) ================= -->
+  <!-- Stats Panel -->
+  <g transform="translate(300, 55)">
+    <rect x="0" y="0" width="450" height="175" rx="6" class="sub-panel"/>
+    <text x="20" y="25" class="label-text" fill="#00f2fe" font-size="10">ATTRIBUTES &amp; ABILITIES</text>
+    
+    <!-- Stat 1: SYSTEMS (STR) -->
+    <g transform="translate(20, 42)">
+      <text x="0" y="10" class="stat-name">SYSTEMS (STR)</text>
+      <text x="210" y="10" class="value-text" font-size="12">LVL 8</text>
+      <!-- Stat Bar Background -->
+      <rect x="0" y="16" width="230" height="10" rx="3" fill="#100b26" stroke="#ff007f" stroke-width="0.8"/>
+      <!-- Stat Bar Fill -->
+      <rect x="1" y="17" width="184" height="8" rx="2" fill="url(#bar-gradient)" filter="drop-shadow(0 0 4px rgba(0, 242, 254, 0.6))"/>
+      <!-- Sub info -->
+      <text x="250" y="20" class="stat-sub">C/C++, Kotlin, Go, Python, SRE</text>
+    </g>
+
+    <!-- Stat 2: INTERFACES (DEX) -->
+    <g transform="translate(20, 84)">
+      <text x="0" y="10" class="stat-name">INTERFACES (DEX)</text>
+      <text x="210" y="10" class="value-text" font-size="12">LVL 6</text>
+      <!-- Stat Bar Background -->
+      <rect x="0" y="16" width="230" height="10" rx="3" fill="#100b26" stroke="#ff007f" stroke-width="0.8"/>
+      <!-- Stat Bar Fill -->
+      <rect x="1" y="17" width="138" height="8" rx="2" fill="url(#bar-gradient)" filter="drop-shadow(0 0 4px rgba(0, 242, 254, 0.6))"/>
+      <!-- Sub info -->
+      <text x="250" y="20" class="stat-sub">React, CSS, JS/TS, Android</text>
+    </g>
+
+    <!-- Stat 3: LOGISTICS (INT) -->
+    <g transform="translate(20, 126)">
+      <text x="0" y="10" class="stat-name">LOGISTICS (INT)</text>
+      <text x="210" y="10" class="value-text" font-size="12">LVL 8</text>
+      <!-- Stat Bar Background -->
+      <rect x="0" y="16" width="230" height="10" rx="3" fill="#100b26" stroke="#ff007f" stroke-width="0.8"/>
+      <!-- Stat Bar Fill -->
+      <rect x="1" y="17" width="184" height="8" rx="2" fill="url(#bar-gradient)" filter="drop-shadow(0 0 4px rgba(0, 242, 254, 0.6))"/>
+      <!-- Sub info -->
+      <text x="250" y="20" class="stat-sub">Databases, System Design, AI/ML</text>
+    </g>
+  </g>
+
+  <!-- Inventory Panel -->
+  <g transform="translate(300, 250)">
+    <rect x="0" y="0" width="450" height="150" rx="6" class="sub-panel"/>
+    <text x="20" y="25" class="label-text" fill="#ffaa00" font-size="10">SPECIAL EQUIPMENT &amp; ARTIFACTS</text>
+    
+    <!-- Item 1: FocusOS -->
+    <g transform="translate(20, 40)">
+      <!-- Item Icon (Glowing circle) -->
+      <circle cx="12" cy="12" r="8" fill="none" stroke="#ff007f" stroke-width="2" filter="drop-shadow(0 0 3px #ff007f)"/>
+      <circle cx="12" cy="12" r="4" fill="#ffaa00"/>
+      <!-- Details -->
+      <text x="32" y="12" class="item-name">FocusOS <tspan class="item-rarity">[RELIC]</tspan></text>
+      <text x="32" y="26" class="stat-sub" font-size="11">Resists web distraction debuffs; boosts workflow focus +15%</text>
+    </g>
+
+    <!-- Item 2: IntentOS -->
+    <g transform="translate(20, 90)">
+      <!-- Item Icon (Glowing diamond) -->
+      <path d="M12,4 L20,12 L12,20 L4,12 Z" fill="none" stroke="#00f2fe" stroke-width="2" filter="drop-shadow(0 0 3px #00f2fe)"/>
+      <circle cx="12" cy="12" r="3" fill="#ffffff"/>
+      <!-- Details -->
+      <text x="32" y="12" class="item-name">IntentOS <tspan class="item-rarity" fill="#00f2fe">[ARTIFACT]</tspan></text>
+      <text x="32" y="26" class="stat-sub" font-size="11">Cures choice fatigue by serving exactly one optimal execution path</text>
+    </g>
+  </g>
+</svg>
