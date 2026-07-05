@@ -18,6 +18,21 @@
 
 ---
 
+## ⚡ Featured Flagship Projects
+
+| Project | Description | Tech Stack |
+| :--- | :--- | :--- |
+| 🎨 **[Zero-to-Brand](https://github.com/Dev-angPatil/Zero-to-Brand)** | Autonomous Artisan Branding & Storefront Engine — multi-agent branding & automated storefront generator. | `TypeScript` `AI Agents` `Next.js` |
+| 🏦 **[Singular](https://github.com/Dev-angPatil/Singular)** | Enterprise treasury infrastructure for the Company of One — AI-driven financial co-pilot. | `JavaScript` `FinTech` `AI` |
+| 🏗️ **[StructCoPilot](https://github.com/Dev-angPatil/StructCoPilot)** | BIM IFC file validator & interactive 3D viewer with rule-based compliance & AI detection. | `JavaScript` `3D Viewer` `BIM` |
+| 🚀 **[SocialSell-AI](https://github.com/Dev-angPatil/SocialSell-AI)** | AI Sales Bot converting social media posts into active sales engines & lead qualification. | `JavaScript` `Automation` `AI` |
+| 🎯 **[IntentOS](https://github.com/Dev-angPatil/IntentOS)** | Anti-to-do list web app eliminating choice fatigue by serving one optimal action. | `Kotlin` `Productivity` `UX` |
+| 🔍 **[TrendTracer](https://github.com/Dev-angPatil/TrendTracer)** | AI platform fingerprinting digital media via visual & audio analysis to detect content usage. | `Python` `AI/ML` `Digital Rights` |
+| 🤖 **[AutoSRE](https://github.com/Dev-angPatil/AutoSRE)** | Autonomous Site Reliability Engineering agent for automated incident response & log diagnostics. | `Python` `SRE` `DevOps` |
+| ⏳ **[FocusOS](https://github.com/Dev-angPatil/FocusOS)** | Chrome extension boosting productivity via smart site blocking & timer extensions. | `JavaScript` `Chrome Ext` |
+
+---
+
 <p align="center">
   <img src="images/profile-card.svg" width="800" alt="Devang's RPG Character Card" />
 </p>
@@ -47,42 +62,6 @@ This repository serves as Devang's official GitHub profile page and hosts **Neon
 
 ---
 
-## 📂 Project Structure
-
-```text
-Dev-angPatil/
-├── .github/
-│   └── workflows/
-│       └── main.yml        # CI/CD pipeline building contribution grid snake
-├── images/
-│   ├── header-banner.svg   # Skyline profile banner
-│   ├── profile-card.svg    # Character stat board card
-│   ├── play-btn.svg        # Neon button linking to game deploy
-│   └── github-contribution-grid-snake.svg
-├── index.html              # Neon Tetris game implementation page
-└── README.md               # GitHub Profile README file (this file)
-```
-
----
-
-## 🚀 How to Run the Game Locally
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/Dev-angPatil/Dev-angPatil.git
-   cd Dev-angPatil
-   ```
-2. **Open index.html**:
-   Double click the `index.html` file or launch it using any local HTTP static server (e.g. `npx serve` or Live Server extension).
-3. **Play**:
-   - Use `A` / `D` or `Arrow Keys` to move left and right.
-   - Use `W` or `Up Arrow` to rotate.
-   - Use `S` or `Down Arrow` for soft drop.
-   - Use `Space` for instant hard drop.
-   - Press `P` to pause/resume.
-
----
-
 ## 📊 System Diagnostics & Metrics
 
 <p align="center">
@@ -105,16 +84,3 @@ Dev-angPatil/
 <p align="center" style="font-family: monospace; font-size: 11px; color: #8b80b6;">
   🚀 <i>Automated grid scan sweeps every 24 hours. Last execution status: ONLINE.</i>
 </p>
-
----
-
-## 🤖 AI Developer Notes
-
-### Context & Second Brain Mapping
-- **Second Brain Notes**: Review active tasks and profile preferences under:
-  [Ctx - Dev-angPatil Context](file:///home/deu/Documents/Technical%20&%20Academins/10%20AI/Context/Coding%20Repos/Dev-angPatil/Ctx%20-%20Dev-angPatil%20Context.md) and [Ctx - Dev-angPatil Inbox](file:///home/deu/Documents/Technical%20&%20Academins/10%20AI/Context/Coding%20Repos/Dev-angPatil/Ctx%20-%20Dev-angPatil%20Inbox.md).
-
-### Codebase Invariants
-- **Web Audio API context rules**: Browser security prevents synthesizing audio until the user interacts with the page. Sound is initialized asynchronously via click listeners on the main start button.
-- **Tetris Board Size**: The play grid is strictly defined as `12 columns` by `24 rows` scaled by `20` within the canvas. Changing block grids requires adjustments to the matrix bounds in `index.html`.
-- **Snake Action Workflow**: The contribution grid snake is generated automatically by a GitHub action workflow running daily. Do not modify the target filename in `/images/github-contribution-grid-snake.svg` directly as it will break the automated generation pipeline.
