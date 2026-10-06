@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=20&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&width=600&lines=CS+Student+%26+System+Architect;Full-Stack+Web+%26+Android+Developer;Creator+of+FocusOS+%26+IntentOS;SRE+%26+AI%2FML+Enthusiast" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=20&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&width=600&lines=CS+Student+%26+System+Architect;Full-Stack+Web+%26+Systems+Developer;Creator+of+ops-assistant+%26+Sahayta;SRE+%26+Agentic+AI+Enthusiast" alt="Typing SVG" />
   </a>
 </p>
 
@@ -22,14 +22,11 @@
 
 | Project | Description | Tech Stack |
 | :--- | :--- | :--- |
-| 🎨 **[Zero-to-Brand](https://github.com/Dev-angPatil/Zero-to-Brand)** | Autonomous Artisan Branding & Storefront Engine — multi-agent branding & automated storefront generator. | `TypeScript` `AI Agents` `Next.js` |
-| 🏦 **[Singular](https://github.com/Dev-angPatil/Singular)** | Enterprise treasury infrastructure for the Company of One — AI-driven financial co-pilot. | `JavaScript` `FinTech` `AI` |
-| 🏗️ **[StructCoPilot](https://github.com/Dev-angPatil/StructCoPilot)** | BIM IFC file validator & interactive 3D viewer with rule-based compliance & AI detection. | `JavaScript` `3D Viewer` `BIM` |
-| 🚀 **[SocialSell-AI](https://github.com/Dev-angPatil/SocialSell-AI)** | AI Sales Bot converting social media posts into active sales engines & lead qualification. | `JavaScript` `Automation` `AI` |
-| 🎯 **[IntentOS](https://github.com/Dev-angPatil/IntentOS)** | Anti-to-do list web app eliminating choice fatigue by serving one optimal action. | `Kotlin` `Productivity` `UX` |
-| 🔍 **[TrendTracer](https://github.com/Dev-angPatil/TrendTracer)** | AI platform fingerprinting digital media via visual & audio analysis to detect content usage. | `Python` `AI/ML` `Digital Rights` |
-| 🤖 **[AutoSRE](https://github.com/Dev-angPatil/AutoSRE)** | Autonomous Site Reliability Engineering agent for automated incident response & log diagnostics. | `Python` `SRE` `DevOps` |
-| ⏳ **[FocusOS](https://github.com/Dev-angPatil/FocusOS)** | Chrome extension boosting productivity via smart site blocking & timer extensions. | `JavaScript` `Chrome Ext` |
+| 🛡️ **[signalpost](https://github.com/Dev-angPatil/signalpost)** | Autonomous Norwegian Company Intelligence Agent — enterprise graph data, entity resolution & deep intelligence. | `TypeScript` `Python` `Intelligence` |
+| 🇮🇳 **[Sahayta](https://github.com/Dev-angPatil/Sahayta)** | Action-Oriented GovTech AI Agent for Bharat — automated grievance triage & routing (CPGRAMS, PDS, DISCOM). | `Python` `GovTech AI` `Agentic Workflows` |
+| 🌾 **[Hack-The-Weather-2026](https://github.com/Dev-angPatil/Hack-The-Weather-2026)** | KilimoConduit — Predictive Agrometeorological Intelligence Engine & Soil Memory System (JHUB Africa @ JKUAT). | `Python` `Climate AI` `Predictive ML` |
+| 🐧 **[ops-assistant](https://github.com/Dev-angPatil/ops-assistant)** | AI-Powered Linux Operations Assistant with Dynamic Causality DAGs, Kernel PSI Telemetry & Ephemeral Sandboxing. | `Python` `Kernel PSI` `Systems SRE` |
+| 🏛️ **[SaralSeva](https://github.com/Dev-angPatil/SaralSeva)** | Citizen Service Delivery Workflow Engine — minimal, high-efficiency multilingual civic governance platform. | `JavaScript` `React` `Civic Tech` |
 
 ---
 
