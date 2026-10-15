@@ -23,11 +23,11 @@ cd ops-assistant && ./install.sh
 
 ---
 
-## Selected Systems & Research
+## Other Beloved Projects
 
-- **[Signalpost](https://github.com/Dev-angPatil/signalpost)** &mdash; Autonomous corporate intelligence agent built for the Builderr Signalpost Challenge, featuring official Norwegian public registry grounding, cryptographic lineage verification, and strict anti-contamination gates.
-- **[IntentStore](https://github.com/Dev-angPatil/SSM)** &mdash; Semantic storage intelligence engine utilizing zero-copy reflink cloning (`ioctl FICLONE`), high-throughput inode crawling (>45k/s), and Holt-Winters time-series archival planning.
-- **[Research Publications](https://github.com/Dev-angPatil/Research_Papers)** &mdash; Consolidated portfolio of 5 IEEE-format research papers spanning combinatorial packing, agrometeorology, web security, and UAV swarm APF navigation.
+- **[Signalpost](https://github.com/Dev-angPatil/signalpost)** &mdash; Autonomous corporate intelligence agent built for the Builderr Signalpost Challenge. Anchors company identity in official Norwegian public registries, audits statutory filings, and verifies facts with cryptographic lineage.
+- **[Sahayta](https://github.com/Dev-angPatil/Sahayta)** &mdash; Action-oriented GovTech AI agent for Bharat. Triages and routes civic grievances across CPGRAMS, PDS, electricity boards (DISCOM), and water utilities.
+- **[KilimoConduit](https://github.com/Dev-angPatil/Hack-The-Weather-2026)** &mdash; Predictive agrometeorological intelligence engine and soil memory system built for Kenyan smallholder farmers (Hack The Weather 2026, JHUB Africa @ JKUAT).
 
 ---
 
