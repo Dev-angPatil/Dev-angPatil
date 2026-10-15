@@ -1,83 +1,52 @@
-<p align="center">
-  <img src="images/header-banner.svg" width="800" alt="Devang Patil Skyline Banner" />
-</p>
+# Devang Patil
 
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=20&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&width=600&lines=CS+Student+%26+System+Architect;Full-Stack+Web+%26+Systems+Developer;Creator+of+ops-assistant+%26+Sahayta;SRE+%26+Agentic+AI+Enthusiast" alt="Typing SVG" />
-  </a>
-</p>
+**Systems Architecture &middot; Linux Internals &middot; Autonomous AI Engines**
+
+Undergraduate CS researcher and systems engineer. I focus on low-latency infrastructure, Linux kernel pressure telemetry, offline causal diagnostics, and deterministic agentic systems.
+
+[GitHub](https://github.com/Dev-angPatil) &middot; [Email](mailto:officialdevangpatil@gmail.com) &middot; [LinkedIn](https://www.linkedin.com/in/devangpatil/)
 
 ---
 
-<p align="center">
-  <a href="https://dev-angpatil.github.io/Dev-angPatil/">
-    <img src="images/play-btn.svg" width="250" alt="Play Neon Tetris" />
-  </a>
-</p>
+## ⚡ Flagship System: [ops-assistant](https://github.com/Dev-angPatil/ops-assistant)
 
----
+> **Sub-50ms Incident Root-Cause Isolation Engine for Production Linux**
 
-## ⚡ Featured Flagship Projects
+A high-performance operations copilot engineered for air-gapped, mission-critical Linux environments. Rather than querying non-deterministic cloud LLMs, `ops-assistant` synthesizes kernel-level Pressure Stall Information (PSI) telemetry with axiomatic causality directed acyclic graphs (DAGs) to isolate system bottlenecks in real time.
 
-| Project | Description | Tech Stack |
+### Architectural Highlights
+
+- **Kernel PSI Telemetry Ingestion:** Directly ingests `/proc/pressure/{cpu,memory,io}` and cgroups v2 metrics, capturing true resource contention without user-space polling overhead.
+- **Axiomatic Causality DAGs:** Evaluates incidents across a 16-class Linux failure taxonomy (I/O starvation, memory thrashing, cgroup throttling, file descriptor exhaustion) to pinpoint exact fault origins.
+- **100% Air-Gapped & Zero-Cloud:** Operates entirely on-box with zero API keys or external data egress, guaranteeing that sensitive production logs and operational telemetry never leave the host.
+- **Ephemeral Namespace Sandboxing:** Isolates automated diagnostic probes and proposed remediation routines inside transient Linux namespaces (`unshare`), mitigating operator risk.
+
+### Empirical Benchmarks
+
+| Metric | Measured Performance | Specification |
 | :--- | :--- | :--- |
-| 🛡️ **[signalpost](https://github.com/Dev-angPatil/signalpost)** | Autonomous Norwegian Company Intelligence Agent — enterprise graph data, entity resolution & deep intelligence. | `TypeScript` `Python` `Intelligence` |
-| 🇮🇳 **[Sahayta](https://github.com/Dev-angPatil/Sahayta)** | Action-Oriented GovTech AI Agent for Bharat — automated grievance triage & routing (CPGRAMS, PDS, DISCOM). | `Python` `GovTech AI` `Agentic Workflows` |
-| 🌾 **[Hack-The-Weather-2026](https://github.com/Dev-angPatil/Hack-The-Weather-2026)** | KilimoConduit — Predictive Agrometeorological Intelligence Engine & Soil Memory System (JHUB Africa @ JKUAT). | `Python` `Climate AI` `Predictive ML` |
-| 🐧 **[ops-assistant](https://github.com/Dev-angPatil/ops-assistant)** | AI-Powered Linux Operations Assistant with Dynamic Causality DAGs, Kernel PSI Telemetry & Ephemeral Sandboxing. | `Python` `Kernel PSI` `Systems SRE` |
-| 🏛️ **[SaralSeva](https://github.com/Dev-angPatil/SaralSeva)** | Citizen Service Delivery Workflow Engine — minimal, high-efficiency multilingual civic governance platform. | `JavaScript` `React` `Civic Tech` |
+| **Root-Cause Isolation** | **`45.2 ms`** | Sub-50ms deterministic triage |
+| **Resident Memory** | **`< 16 MB`** peak RAM | Negligible footprint daemon |
+| **Verification Suite** | **`353 / 353`** passing | Comprehensive unit, kernel & regression tests |
+| **External Dependencies** | **`0`** cloud APIs | Fully autonomous on-box runtime |
+| **Distribution Matrix** | **`6`** Linux distros | Debian, RHEL, Arch, Alpine, SUSE, BOSS |
+
+```bash
+# Clone & run locally in an air-gapped environment
+git clone https://github.com/Dev-angPatil/ops-assistant.git
+cd ops-assistant && ./install.sh
+```
+
+---
+
+## Selected Systems & Research
+
+- **[Signalpost](https://github.com/Dev-angPatil/signalpost)** &mdash; Autonomous corporate intelligence agent built for the Builderr Signalpost Challenge, featuring official Norwegian public registry grounding, cryptographic lineage verification, and strict anti-contamination gates.
+- **[IntentStore](https://github.com/Dev-angPatil/SSM)** &mdash; Semantic storage intelligence engine utilizing zero-copy reflink cloning (`ioctl FICLONE`), high-throughput inode crawling (>45k/s), and Holt-Winters time-series archival planning.
+- **[Research Publications](https://github.com/Dev-angPatil/Research_Papers)** &mdash; Consolidated portfolio of 5 IEEE-format research papers spanning combinatorial packing, agrometeorology, web security, and UAV swarm APF navigation.
 
 ---
 
 <p align="center">
-  <img src="images/profile-card.svg" width="800" alt="Devang's RPG Character Card" />
-</p>
-
----
-
-## 🎮 Cyberpunk Neon Tetris Game
-
-This repository serves as Devang's official GitHub profile page and hosts **Neon Tetris**, a web-based cyberpunk-themed arcade experience written in vanilla HTML5, Canvas, and CSS.
-
-### Key Game Features:
-- **WebGL-style 2D Canvas**: High-fidelity neon lighting shadows and active cell glow effects.
-- **Web Audio API Synthesizer**: Generates dynamic retro sound frequencies programmatically (movement clicks, rotation sine sweeps, line-clear arpeggios, and descending sawtooth game-over notes) without external audio file loading.
-- **Ghost Projection**: Shows real-time block drop guides for precision landing.
-- **Dynamic Speed Calibration**: Automatically scales drops speed (reducing millisecond intervals) on level completions.
-- **Responsive Layout**: Adjusts layout for mobile display and includes overlay panels for touch gestures.
-
----
-
-## 🛠️ Tech Stack & Equipment Inventory
-
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=cpp,python,kotlin,go,js,ts,react,nextjs,tailwind,android,mysql,postgres,mongodb,docker,git,githubactions" alt="Tech Stack" />
-  </a>
-</p>
-
----
-
-## 📊 System Diagnostics & Metrics
-
-<p align="center">
-  <!-- GitHub Readme Stats Card (Synthwave/Outrun Customized Theme) -->
-  <img src="https://github-readme-stats.vercel.app/api?username=Dev-angPatil&show_icons=true&bg_color=0c081e&title_color=00f2fe&text_color=ffffff&icon_color=ff007f&border_color=ff007f" height="170" alt="GitHub Stats" />
-  &nbsp;&nbsp;
-  <!-- GitHub Streak Card (Customized Theme) -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Dev-angPatil&background=0c081e&ring=ff007f&fire=ffaa00&currStreakNum=00f2fe&sideNums=ffffff&sideLabels=8b80b6&dates=ffffff" height="170" alt="GitHub Streak Stats" />
-</p>
-
----
-
-## 🐍 Contribution Grid Journey
-
-<p align="center">
-  <!-- Generated via Snake Action -->
-  <img src="images/github-contribution-grid-snake.svg" alt="Contribution Grid Snake" />
-</p>
-
-<p align="center" style="font-family: monospace; font-size: 11px; color: #8b80b6;">
-  🚀 <i>Automated grid scan sweeps every 24 hours. Last execution status: ONLINE.</i>
+  <sub>Engineered with restraint. Hosted on Linux.</sub>
 </p>
