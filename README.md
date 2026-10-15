@@ -27,7 +27,7 @@ cd ops-assistant && ./install.sh
 
 - **[Signalpost](https://github.com/Dev-angPatil/signalpost)** &mdash; Autonomous corporate intelligence agent built for the Builderr Signalpost Challenge. Anchors company identity in official Norwegian public registries, audits statutory filings, and verifies facts with cryptographic lineage.
 - **[Sahayta](https://github.com/Dev-angPatil/Sahayta)** &mdash; Action-oriented GovTech AI agent for Bharat. Triages and routes civic grievances across CPGRAMS, PDS, electricity boards (DISCOM), and water utilities.
-- **[KilimoConduit](https://github.com/Dev-angPatil/Hack-The-Weather-2026)** &mdash; Predictive agrometeorological intelligence engine and soil memory system built for Kenyan smallholder farmers (Hack The Weather 2026, JHUB Africa @ JKUAT).
+- **[TasteMem](https://github.com/Dev-angPatil/qloo-agentic-hackathon)** &mdash; Personal cultural shelf and cross-domain recommendation engine powered by Qloo's Cultural AI, connecting taste preferences across films, books, music, and dining.
 
 ---
 
