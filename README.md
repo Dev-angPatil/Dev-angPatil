@@ -1,35 +1,19 @@
 # Devang Patil
 
-**Systems Architecture &middot; Linux Internals &middot; Autonomous AI Engines**
-
-Undergraduate CS researcher and systems engineer. I focus on low-latency infrastructure, Linux kernel pressure telemetry, offline causal diagnostics, and deterministic agentic systems.
+CS student building things that are actually useful.
 
 [GitHub](https://github.com/Dev-angPatil) &middot; [Email](mailto:officialdevangpatil@gmail.com) &middot; [LinkedIn](https://www.linkedin.com/in/devangpatil/)
 
 ---
 
-## ⚡ Flagship System: [ops-assistant](https://github.com/Dev-angPatil/ops-assistant)
+## Featured Project: [ops-assistant](https://github.com/Dev-angPatil/ops-assistant)
 
-> **Sub-50ms Incident Root-Cause Isolation Engine for Production Linux**
+An AI Linux assistant that is better than normal LLMs or cloud APIs because it uses:
 
-A high-performance operations copilot engineered for air-gapped, mission-critical Linux environments. Rather than querying non-deterministic cloud LLMs, `ops-assistant` synthesizes kernel-level Pressure Stall Information (PSI) telemetry with axiomatic causality directed acyclic graphs (DAGs) to isolate system bottlenecks in real time.
-
-### Architectural Highlights
-
-- **Kernel PSI Telemetry Ingestion:** Directly ingests `/proc/pressure/{cpu,memory,io}` and cgroups v2 metrics, capturing true resource contention without user-space polling overhead.
-- **Axiomatic Causality DAGs:** Evaluates incidents across a 16-class Linux failure taxonomy (I/O starvation, memory thrashing, cgroup throttling, file descriptor exhaustion) to pinpoint exact fault origins.
-- **100% Air-Gapped & Zero-Cloud:** Operates entirely on-box with zero API keys or external data egress, guaranteeing that sensitive production logs and operational telemetry never leave the host.
-- **Ephemeral Namespace Sandboxing:** Isolates automated diagnostic probes and proposed remediation routines inside transient Linux namespaces (`unshare`), mitigating operator risk.
-
-### Empirical Benchmarks
-
-| Metric | Measured Performance | Specification |
-| :--- | :--- | :--- |
-| **Root-Cause Isolation** | **`45.2 ms`** | Sub-50ms deterministic triage |
-| **Resident Memory** | **`< 16 MB`** peak RAM | Negligible footprint daemon |
-| **Verification Suite** | **`353 / 353`** passing | Comprehensive unit, kernel & regression tests |
-| **External Dependencies** | **`0`** cloud APIs | Fully autonomous on-box runtime |
-| **Distribution Matrix** | **`6`** Linux distros | Debian, RHEL, Arch, Alpine, SUSE, BOSS |
+- **Kernel PSI Telemetry:** Directly ingests `/proc/pressure/{cpu,memory,io}` and cgroups v2 metrics instead of guessing from noisy text logs.
+- **Causal Reasoning DAGs:** Traces root causes through an axiomatic failure taxonomy instead of hallucinating answers.
+- **100% Offline & Air-Gapped:** Runs completely on-host with zero cloud keys, zero API latency, and zero production data leaving the machine.
+- **Namespace Sandboxing:** Runs automated diagnostics and proposed fixes inside ephemeral Linux namespaces (`unshare`) so it never breaks production.
 
 ```bash
 # Clone & run locally in an air-gapped environment
@@ -48,5 +32,5 @@ cd ops-assistant && ./install.sh
 ---
 
 <p align="center">
-  <sub>Engineered with restraint. Hosted on Linux.</sub>
+  <sub>Built with restraint. Hosted on Linux.</sub>
 </p>
